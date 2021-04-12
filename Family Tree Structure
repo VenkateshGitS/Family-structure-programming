@@ -1,0 +1,21 @@
+class Family():
+    def __init__(self,grandparents, son, daughter, son_kids,daughter_kids, kids_gf):
+        self.grandparents=grandparents
+        self.son=son
+        self.daughter=daughter
+        self.son_kids=son_kids
+        self.daughter_kids=daughter_kids
+        self.kids_gf=kids_gf
+        print(f" the grandparents are {self.grandparents} and son name is {self.son} daughter name is {self.daughter}\nson kids name are {self.son_kids}\ndaughter kids are {self.daughter_kids}\n the daughter son girlfriends are {self.kids_gf}")
+tree=Family("Nana & Pop","chip","Mary Beth", "Chad & Austin","David,Dominic & Danielle","Katie,Kelles & Venkatesh")  
+class kutumbam(Family):
+    def __init__(self,grandparents,son,daughter,son_kids,daughter_kids,kids_gf):
+        self.grandparents=grandparents
+        self.son=son
+        self.daughter=daughter
+        self.son_kids=son_kids
+        self.daughter_kids=daughter_kids
+        self.kids_gf=kids_gf
+        print(f" the grandparents are {self.grandparents} and son name is {self.son} daughter name is {self.daughter}\nson kids name are {self.son_kids}\ndaughter kids are {self.daughter_kids}\n the daughter son girlfriends are {self.kids_gf}")
+branches=kutumbam("nana","marybeth","chip,","chad", "danielle", "katie")        
+        
